@@ -39,15 +39,27 @@ class MultThreadDemo {
 
     public static void main(String[] args) {
         //创建三个线程
-        new Demo4("线程一");
-        new Demo4("线程二");
-        new Demo4("线程三");
+        Demo4 thread_1 = new Demo4("线程一");
+        Demo4 thread_2 = new Demo4("线程二");
+        Demo4 thread_3 = new Demo4("线程三");
+        //查看状态
+        System.out.println("线程一状态:" + thread_1.thread.isAlive());
+        System.out.println("线程二状态:" + thread_2.thread.isAlive());
+        System.out.println("线程三状态:" + thread_3.thread.isAlive());
 
         try {
-            Thread.sleep(10000);
+            System.out.println("等待其他线程结束");
+            //使用join确保主线程最后运行
+            thread_1.thread.join();
+            thread_2.thread.join();
+            thread_3.thread.join();
         } catch (InterruptedException e) {
             System.out.println("线程异常");
+
         }
-        System.out.println("全部线程结束");
+        //查看状态
+        System.out.println("线程一:" + thread_1.thread.isAlive());
+        System.out.println("线程二:" + thread_2.thread.isAlive());
+        System.out.println("线程三:" + thread_3.thread.isAlive());
     }
 }
