@@ -22,11 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="com-hanyahong-blog" />
+        <module name="com-hanyahong-thread-1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com-hanyahong-blog" target="1.5" />
+      <module name="com-hanyahong-thread-1" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
