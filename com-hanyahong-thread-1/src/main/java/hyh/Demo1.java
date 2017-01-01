@@ -4,7 +4,7 @@ package hyh;
  * Created by hyh on 17-1-1.
  * 简单测试thread 线程测试
  */
-public class CurrentThreadDemo {
+public class Demo1 {
     public static void main(String args[]) {
         Thread thread = Thread.currentThread();
         System.out.println("当前线程:" + thread);
