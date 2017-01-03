@@ -3,6 +3,7 @@ package com.hyh.communication;
 /**
  * Created by hyh on 17-1-3.
  * 消费者
+ * @author hyh
  */
 public class ConsumerService implements Runnable {
     private ProductModel productModel;

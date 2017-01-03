@@ -12,12 +12,12 @@ public class ProductModel {
 
     //get set 方法
     synchronized int getA() {
-        System.out.println("消费:"+a);
+        System.out.println("消费:" + a);
         return a;
     }
 
     synchronized void setA(int a) {
-        System.out.println("生产:"+a);
+        System.out.println("生产:" + a);
         this.a = a;
     }
 
