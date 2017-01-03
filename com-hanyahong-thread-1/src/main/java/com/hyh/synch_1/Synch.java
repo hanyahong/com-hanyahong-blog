@@ -3,6 +3,7 @@ package com.hyh.synch_1;
 /**
  * Created by hyh on 17-1-1.
  * 同步测试类
+ * @author hyh
  */
 public class Synch {
     public static void main(String[] args) {

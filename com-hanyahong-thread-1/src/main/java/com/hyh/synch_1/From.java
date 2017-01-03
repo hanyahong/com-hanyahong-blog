@@ -3,6 +3,7 @@ package com.hyh.synch_1;
 /**
  * Created by hyh on 17-1-1.
  * 发送者类
+ * @author hyh
  */
 public class From implements Runnable {
 
