@@ -3,6 +3,7 @@ package com.hyh.communication_2;
 /**
  * Created by hyh on 17-1-3.
  * 主方法
+ * @author hyh
  */
 public class MainFunction {
     public static void main(String[] args) {
