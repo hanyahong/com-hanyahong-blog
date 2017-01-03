@@ -17,7 +17,7 @@ public class ProducerService implements Runnable {
     public void run() {
         int i = 0;
         try {
-            for (int a = 0; a < 100; a++) {
+            while (true) {
                 productModel.setA(i++);
                 Thread.sleep(500);
             }

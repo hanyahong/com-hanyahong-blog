@@ -14,7 +14,7 @@ public class ConsumerService implements Runnable {
 
     public void run() {
         try {
-            for (int a = 0; a < 100; a++) {
+            while (true) {
                 productModel.getA();
                 Thread.sleep(500);
             }
