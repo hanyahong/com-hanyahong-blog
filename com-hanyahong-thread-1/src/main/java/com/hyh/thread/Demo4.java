@@ -34,6 +34,8 @@ public class Demo4 implements Runnable {
 
 /**
  * 测试类
+ *
+ * @author hyh
  */
 class MultThreadDemo {
 

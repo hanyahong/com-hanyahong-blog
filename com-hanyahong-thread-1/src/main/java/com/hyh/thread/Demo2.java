@@ -3,6 +3,8 @@ package com.hyh.thread;
 /**
  * Created by hyh on 17-1-1.
  * runnable 创建线程Demo
+ *
+ * @author hyh
  */
 public class Demo2 implements Runnable {
 

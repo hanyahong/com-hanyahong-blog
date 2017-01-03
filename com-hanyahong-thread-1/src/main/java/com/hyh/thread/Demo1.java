@@ -3,6 +3,8 @@ package com.hyh.thread;
 /**
  * Created by hyh on 17-1-1.
  * 简单测试thread 线程测试
+ *
+ * @author hyh
  */
 public class Demo1 {
     public static void main(String args[]) {
