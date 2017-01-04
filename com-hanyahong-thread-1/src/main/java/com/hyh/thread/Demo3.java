@@ -3,7 +3,6 @@ package com.hyh.thread;
 /**
  * Created by hyh on 17-1-1.
  * 线程第三种实现方式
- * @author hyh
  */
 public class Demo3 extends Thread {
     public Demo3() {
