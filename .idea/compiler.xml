@@ -24,9 +24,17 @@
         <processorPath useClasspath="true" />
         <module name="com-hanyahong-thread-1" />
       </profile>
+      <profile default="false" name="Annotation profile for com-hanyahong-blog" enabled="true">
+        <sourceOutputDir name="../com-hanyahong- concurrent-1/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../com-hanyahong- concurrent-1/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="com-hanyahong-concurrent-1" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com-hanyahong-blog" target="1.5" />
+      <module name="com-hanyahong-concurrent-1" target="1.5" />
       <module name="com-hanyahong-thread-1" target="1.5" />
     </bytecodeTargetLevel>
   </component>
